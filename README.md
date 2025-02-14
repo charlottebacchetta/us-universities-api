@@ -9,9 +9,7 @@ This project is a simple API built with Flask, using data from the **Top 200 Uni
 ## 📌 Features
 
 - Fetch university details from a dataset
-- Filter results based on parameters (e.g., country, ranking, city)
-- Simple and lightweight Flask setup
-- JSON responses for easy integration  
+- Filter results based on parameters (e.g., country, ranking, city) 
 
 ---
 
