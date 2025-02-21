@@ -1,5 +1,8 @@
 import pytest
 import pandas as pd
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from data_cleaning import clean_endowment_column
 
 def test_clean_endowment_column():
