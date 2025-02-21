@@ -13,7 +13,7 @@ def clean_endowment_column(df):
 def load_and_clean_data(dataset_path):
     """Loads and cleans the dataset."""
     if os.path.exists(dataset_path):
-        df = pd.read_csv(dataset_path)
+        df = pd.read_csv(dataset_path, encoding='latin1')  # or try 'ISO-8859-1'
     else:
         return pd.DataFrame()  # Return empty DataFrame if file is missing
 
